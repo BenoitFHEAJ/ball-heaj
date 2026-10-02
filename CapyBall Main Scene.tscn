@@ -1,20 +1,20 @@
 [gd_scene format=3 uid="uid://w84vikms4bi7"]
 
-[ext_resource type="Texture2D" uid="uid://ng5ko0digrag" path="res://Assets/WBF Logo.png" id="1_8llu5"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_0h33x"]
-radius = 825.3787
+[ext_resource type="PackedScene" uid="uid://dh2ktdska1fi5" path="res://capy_ball.tscn" id="1_8llu5"]
 
 [node name="Node2D" type="Node2D" unique_id=1495046648]
 
-[node name="Capy Ball" type="RigidBody2D" parent="." unique_id=1282330288]
+[node name="Capy Ball5" parent="." unique_id=1065693124 instance=ExtResource("1_8llu5")]
+position = Vector2(355, 193)
 
-[node name="Ball Sprite" type="Sprite2D" parent="Capy Ball" unique_id=211528391]
-position = Vector2(269, 234)
-scale = Vector2(0.04, 0.04)
-texture = ExtResource("1_8llu5")
+[node name="Capy Ball6" parent="." unique_id=560801897 instance=ExtResource("1_8llu5")]
+position = Vector2(355, 193)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Capy Ball" unique_id=1808190598]
-position = Vector2(269, 233)
-scale = Vector2(0.04, 0.04)
-shape = SubResource("CircleShape2D_0h33x")
+[node name="Capy Ball7" parent="." unique_id=984399689 instance=ExtResource("1_8llu5")]
+position = Vector2(355, 193)
+
+[node name="Capy Ball8" parent="." unique_id=255736061 instance=ExtResource("1_8llu5")]
+position = Vector2(355, 193)
+
+[node name="Capy Ball9" parent="." unique_id=241695204 instance=ExtResource("1_8llu5")]
+position = Vector2(355, 193)
