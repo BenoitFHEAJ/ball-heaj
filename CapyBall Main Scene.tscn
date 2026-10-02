@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://w84vikms4bi7"]
 
 [ext_resource type="PackedScene" uid="uid://dh2ktdska1fi5" path="res://capy_ball.tscn" id="1_8llu5"]
+[ext_resource type="PackedScene" uid="uid://d11f1aytujxy8" path="res://wall_container.tscn" id="2_v4y2a"]
+[ext_resource type="PackedScene" uid="uid://dm5jrnxmxnuof" path="res://Ball.tscn" id="3_t5n0t"]
 
 [node name="Node2D" type="Node2D" unique_id=1495046648]
 
@@ -8,13 +10,18 @@
 position = Vector2(355, 193)
 
 [node name="Capy Ball6" parent="." unique_id=560801897 instance=ExtResource("1_8llu5")]
-position = Vector2(355, 193)
+position = Vector2(244, 124)
 
 [node name="Capy Ball7" parent="." unique_id=984399689 instance=ExtResource("1_8llu5")]
-position = Vector2(355, 193)
+position = Vector2(159, 91)
 
 [node name="Capy Ball8" parent="." unique_id=255736061 instance=ExtResource("1_8llu5")]
-position = Vector2(355, 193)
+position = Vector2(364, 102)
 
 [node name="Capy Ball9" parent="." unique_id=241695204 instance=ExtResource("1_8llu5")]
-position = Vector2(355, 193)
+position = Vector2(174, 234)
+
+[node name="WallContainer" parent="." unique_id=1815146816 instance=ExtResource("2_v4y2a")]
+
+[node name="Ball" parent="." unique_id=1838251424 instance=ExtResource("3_t5n0t")]
+position = Vector2(801, 132)
