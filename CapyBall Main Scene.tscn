@@ -2,32 +2,15 @@
 
 [ext_resource type="PackedScene" uid="uid://dh2ktdska1fi5" path="res://capy_ball.tscn" id="1_8llu5"]
 [ext_resource type="PackedScene" uid="uid://d11f1aytujxy8" path="res://wall_container.tscn" id="2_v4y2a"]
-[ext_resource type="PackedScene" uid="uid://dm5jrnxmxnuof" path="res://Ball.tscn" id="3_t5n0t"]
 [ext_resource type="Texture2D" uid="uid://bkd4cu3a8l4al" path="res://Assets/WIN.png" id="4_udmnt"]
 [ext_resource type="Texture2D" uid="uid://lqjomjl4yo60" path="res://Assets/lose.png" id="5_j1pap"]
 
 [node name="Node2D" type="Node2D" unique_id=1495046648]
 
-[node name="Capy Ball5" parent="." unique_id=1065693124 instance=ExtResource("1_8llu5")]
-position = Vector2(355, 193)
-
-[node name="Capy Ball6" parent="." unique_id=560801897 instance=ExtResource("1_8llu5")]
-position = Vector2(244, 124)
-
-[node name="Capy Ball7" parent="." unique_id=984399689 instance=ExtResource("1_8llu5")]
-position = Vector2(159, 91)
-
-[node name="Capy Ball8" parent="." unique_id=255736061 instance=ExtResource("1_8llu5")]
-position = Vector2(364, 102)
-
-[node name="Capy Ball9" parent="." unique_id=241695204 instance=ExtResource("1_8llu5")]
-position = Vector2(174, 234)
+[node name="Capy Ball" parent="." unique_id=1065693124 instance=ExtResource("1_8llu5")]
+position = Vector2(262, 36)
 
 [node name="WallContainer" parent="." unique_id=1815146816 instance=ExtResource("2_v4y2a")]
-
-[node name="Ball" parent="." unique_id=1838251424 instance=ExtResource("3_t5n0t")]
-position = Vector2(473, 61)
-rotation = 3.1415927
 
 [node name="Win" type="Sprite2D" parent="." unique_id=656420228]
 position = Vector2(273.00003, 917)
@@ -43,3 +26,5 @@ texture = ExtResource("5_j1pap")
 position = Vector2(75.00006, 921)
 scale = Vector2(0.54747856, 0.5372314)
 texture = ExtResource("5_j1pap")
+
+[editable path="Capy Ball"]

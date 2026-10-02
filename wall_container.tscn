@@ -61,7 +61,7 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall8" type="StaticBody2D" parent="." unique_id=1861496257]
-position = Vector2(509.99994, 402)
+position = Vector2(542, 407)
 rotation = 5.759587
 scale = Vector2(0.8, 0.8)
 physics_material_override = SubResource("4")
