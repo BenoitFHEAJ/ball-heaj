@@ -33,8 +33,9 @@ bounce = 0.5
 [node name="WallContainer" type="Node" unique_id=1815146816]
 
 [node name="Wall2" type="StaticBody2D" parent="." unique_id=108329678]
-position = Vector2(688, 1067)
+position = Vector2(377, 675)
 rotation = -2.3561945
+scale = Vector2(0.7, 0.7)
 physics_material_override = SubResource("1")
 metadata/_edit_group_ = true
 
@@ -46,8 +47,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall7" type="StaticBody2D" parent="." unique_id=903842916]
-position = Vector2(399.00003, 525)
+position = Vector2(182, 186)
 rotation = 2.0943952
+scale = Vector2(0.8, 0.8)
 physics_material_override = SubResource("3")
 metadata/_edit_group_ = true
 
@@ -59,8 +61,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall8" type="StaticBody2D" parent="." unique_id=1861496257]
-position = Vector2(770, 766)
+position = Vector2(509.99994, 402)
 rotation = 5.759587
+scale = Vector2(0.8, 0.8)
 physics_material_override = SubResource("4")
 metadata/_edit_group_ = true
 
@@ -72,8 +75,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall4" type="StaticBody2D" parent="." unique_id=795108508]
-position = Vector2(420, 1227)
+position = Vector2(173, 846)
 rotation = -1.5707964
+scale = Vector2(0.7, 0.7)
 physics_material_override = SubResource("5")
 metadata/_edit_group_ = true
 
@@ -85,9 +89,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall1" type="StaticBody2D" parent="." unique_id=1809478413]
-position = Vector2(271, 771)
+position = Vector2(15.999998, 340)
 rotation = -2.6179938
-scale = Vector2(0.9737035, 0.99881244)
+scale = Vector2(0.8, 0.8)
 physics_material_override = SubResource("6")
 metadata/_edit_group_ = true
 
@@ -99,8 +103,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall5" type="StaticBody2D" parent="." unique_id=180703983]
-position = Vector2(617, 1227)
+position = Vector2(370, 846)
 rotation = 1.5708
+scale = Vector2(0.7, 0.7)
 physics_material_override = SubResource("7")
 metadata/_edit_group_ = true
 
@@ -112,8 +117,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall3" type="StaticBody2D" parent="." unique_id=1049878094]
-position = Vector2(368.00006, 1062)
+position = Vector2(156.00002, 576)
 rotation = 2.3561945
+scale = Vector2(0.7, 0.7)
 physics_material_override = SubResource("8")
 metadata/_edit_group_ = true
 
@@ -125,8 +131,9 @@ rotation = 1.5708
 shape = SubResource("2")
 
 [node name="Wall6" type="StaticBody2D" parent="." unique_id=1774679878]
-position = Vector2(659, 396)
-rotation = 0.7853982
+position = Vector2(318, 373)
+rotation = 1.5707964
+scale = Vector2(0.8, 0.8)
 physics_material_override = SubResource("9")
 metadata/_edit_group_ = true
 
