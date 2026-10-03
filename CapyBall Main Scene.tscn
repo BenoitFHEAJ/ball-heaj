@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://w84vikms4bi7"]
 
 [ext_resource type="PackedScene" uid="uid://dh2ktdska1fi5" path="res://capy_ball.tscn" id="1_8llu5"]
-[ext_resource type="Script" uid="uid://wywe57t4nlpm" path="res://capy_ball.gd" id="2_udmnt"]
 [ext_resource type="PackedScene" uid="uid://d11f1aytujxy8" path="res://wall_container.tscn" id="2_v4y2a"]
 [ext_resource type="Texture2D" uid="uid://bkd4cu3a8l4al" path="res://Assets/WIN.png" id="4_udmnt"]
 [ext_resource type="Texture2D" uid="uid://lqjomjl4yo60" path="res://Assets/lose.png" id="5_j1pap"]
@@ -10,7 +9,6 @@
 
 [node name="Capy Ball" parent="." unique_id=1065693124 instance=ExtResource("1_8llu5")]
 position = Vector2(262, 36)
-script = ExtResource("2_udmnt")
 
 [node name="WallContainer" parent="." unique_id=1815146816 instance=ExtResource("2_v4y2a")]
 
